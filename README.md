@@ -1,2 +1,2 @@
-# SeanLasater-github.io
+# SeanLasater.github.io
 My ever-changing project space.
