@@ -2,6 +2,7 @@
     padding: 0em 1em;
     font: normal 40px/50px "Baloo", sans-serif;
     color: rgb(137, 236, 240);
+    
 }
 
 .Iam b {
@@ -38,11 +39,7 @@
     -o-animation-delay: 1s;
     animation-delay: 1s;
 }
-@keyframes (max-width: 200px) {
-    b {
-        font-size: 2em;
-    }
-}
+
 @keyframes move {
     0% {
         top: 0px;
