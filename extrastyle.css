@@ -4,12 +4,6 @@
     color: grey;
 }
 
-.Iam p {
-    height: 50px;
-    float: left;
-    margin-right: 0.3em;
-}
-
 .Iam b {
     float: left;
     overflow: hidden;
