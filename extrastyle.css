@@ -38,7 +38,11 @@
     -o-animation-delay: 1s;
     animation-delay: 1s;
 }
-
+@keyframes only screen and (max-width: 320px) {
+    b {
+        font-size: 40px;
+    }
+}
 @keyframes move {
     0% {
         top: 0px;
