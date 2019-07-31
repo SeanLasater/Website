@@ -5,13 +5,13 @@
     color: #999;
 }
 
-.Iam p2 {
+.Iam .p2 {
     height: 50px;
     float: left;
     margin-right: 0.3em;
 }
 
-.Iam celebp {
+.Iam .celebp {
     float: left;
     overflow: hidden;
     position: relative;
