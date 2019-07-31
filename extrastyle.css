@@ -2,6 +2,7 @@
     padding: 2em 5em;
     font: normal 40px/50px Montserrat, sans-serif;
     color: #999;
+    position: relative
 }
 
 .Iam p {
@@ -19,6 +20,7 @@
 
 .Iam .innerIam {
     display: inline-block;
+    align-content: left;
     color: white;
     position: relative;
     white-space: nowrap;
