@@ -1,5 +1,5 @@
 .Iam {
-    margin: relative;
+    margin: inherit;
     font: normal 40px/50px "Baloo", sans-serif;
     color: rgb(137, 236, 240);
 }
