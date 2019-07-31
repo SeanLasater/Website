@@ -2,7 +2,10 @@
     padding: 0em 1em;
     font: normal 40px/50px "Baloo", sans-serif;
     color: rgb(137, 236, 240);
-    
+    max-width:100%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .Iam b {
