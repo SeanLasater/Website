@@ -20,11 +20,11 @@
     top: 0;
     left: 0;
     /*animation*/
-    -webkit-animation: move 10s;
-    -moz-animation: move 10s;
-    -ms-animation: move 10s;
-    -o-animation: move 10s;
-    animation: move 10s;
+    -webkit-animation: move 20s;
+    -moz-animation: move 20s;
+    -ms-animation: move 20s;
+    -o-animation: move 20s;
+    animation: move 20s;
     /*animation-iteration-count*/
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
