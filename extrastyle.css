@@ -1,5 +1,10 @@
+.Iam {
+    margin: relative;
+    font: normal 40px/50px "Baloo", sans-serif;
+    color: rgb(137, 236, 240);
+}
 
-b {
+.Iam b {
     float: left;
     overflow: hidden;
     position: relative;
@@ -7,7 +12,7 @@ b {
     top: 40px;
 }
 
-.innerIam {
+.Iam .innerIam {
     display: inline-block;
     color: lightskyblue;
     position: relative;
