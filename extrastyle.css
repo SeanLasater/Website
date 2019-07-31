@@ -2,7 +2,7 @@
     padding: 2em 5em;
     font: normal 40px/50px Baloo, sans-serif;
     color: #999;
-    position: relative;
+    position: absolute;
 }
 
 .Iam p {
