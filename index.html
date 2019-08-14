@@ -1,181 +1,242 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	ColoradoHealth.com
+    Shannon Baker
+    ShannonGMartin58Tu@gmail.com
+    Free for personal and commercial use under the CCA 3.0 license 
+-->
 <html>
-<title>Kiwi Cookie Co</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" type="text/css" href="extrastyle.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Baloo", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-.bgimg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('/img/IMG_1564.JPG');
-  min-height: 100%;
-}
+	<head>
+		<title>Colorado Health</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload homepage">
+		<div id="page-wrapper">
 
-.ptype {
-  padding-left: 20px;
-  padding-right: 20px;
-  size: 20rem;
-}
-</style>
-<body>
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
 
-<!-- Sidebar with image -->
-<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
-  <div class="bgimg"></div>
-</nav>
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">CH</a></h1>
+								<span>ColoradoHealth.com</span>
+							</div>
 
-<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="w3-sidebar w3-white w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
-    <a href="#clients" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Clients</a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
-  </div>
-</nav>
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Welcome</a></li>
+									<li><a href="About.html">About</a></li>
+                                    <li><a href="Contact.html">Contact</a></li>
+								</ul>
+							</nav>
 
-<!-- Page Content -->
-<div class="w3-main w3-padding-large w3-white" style="margin-left:40%">
+					</header>
+				</div>
 
-  <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+			<!-- Banner -->
+				<div id="banner-wrapper">
+					<div id="banner" class="box container">
+						<div class="row">
+							<div class="col-7 col-12-medium">
+								<h2>Welcome to Colorado Health.</h2>
+								<p>Your best insider to Colorado Health news.</p>
+							</div>
+							<div class="col-5 col-12-medium">
+								<ul>
+									<li><a href="#" class="button large icon fa-arrow-circle-right">Ok let's go</a></li>
+									<li><a href="#" class="button alt large icon fa-question-circle">More info</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 
-  <!-- Header -->
-  <header class="w3-container w3-center" style="padding:96px 16px" id="home">
-    <h1 class="w3-jumbo"><b>Kiwi Cookie Co.</b></h1>
-    <h3>By Mia</h3>
-    <a href="https://www.facebook.com/Kiwi-Cookie-Co-1912638472299955/" class="fa fa-facebook-official w3-hover-opacity"></a>
-    <a href="https://www.instagram.com/kiwicookieco/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-  </header>
+			<!-- Features -->
+				<div id="features-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
 
-  <!-- Portfolio Section -->
-  <div class="w3-padding-32 w3-content" id="portfolio">
-    <h2 class="w3-text-grey">Recent Work</h2>
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Put something here</h2>
+												<p>Maybe here as well I think</p>
+											</header>
+											<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+										</div>
+									</section>
 
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img class="w3-card" src="/img/IMG_0065.JPG" style="width:100%">
-        <img class="w3-card" src="/img/IMG_1349.JPG" style="width:100%">
-        <img class="w3-card" src="/img/IMG_6902.JPG" style="width:100%">
-        <img class="w3-card" src="/img/IMG_3795.JPG" style="width:100%">
-        <img class="w3-card" src="/img/IMG_5975.JPG" style="width:100%">
-      </div>
+							</div>
+							<div class="col-4 col-12-medium">
 
-      <div class="w3-half">
-        <img class="w3-card" src="/img/IMG_3663.JPG" style="width:100%">
-        <img class="w3-card" src="/img/IMG_1957.JPG" style="width:100%">
-        <img class="w3-card" src="/img/IMG_0088.JPG" style="width:100%">
-        <img class="w3-card" src="/img/IMG_5184.JPG" style="width:100%">
-        <img class="w3-card" src="/img/IMG_4161.JPG" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  </div>
-    <!-- Clients Section -->
-  <h2 class="w3-text-grey" id="clients">Recent clients:</h2>
-  <div class="w3-row-padding w3-center">
-      <div class="w3-third w3-text-grey">
-            LeAnn Rimes<br /> 
-            Chrissy Teigen<br />
-            Andra Day<br />
-            Johnny Rzeznik<br /> 
-            Gaten Mataratto<br /> 
-            Finn Wolfhard<br />
-            Calab Mclaughlin<br /> 
-            Karrueche Tran<br />
-            JoJo<br /> 
-            Kaley Cuoco<br />
-      </div>
-      <div class="w3-third w3-text-grey">
-            Linda Blair<br />
-            Fifth Harmony<br /> 
-            Bryan Adams<br /> 
-            Dennis Quaid<br />
-            Robby Krieger<br /> 
-            Brian Ray<br />
-            Warner Bros<br />
-            CBS<br />
-            Universal<br />
-            DC comics<br /> 
-      </div>
-      <div class="w3-third w3-text-grey">
-            Netflix<br />
-            ABC<br />
-            Gibson<br /> 
-            Yamaha<br /> 
-            Family Guy<br />
-            Vida<br />
-            America’s Got Talent<br />
-            World of Dance<br />
-            Lip Sync Battle<br />
-            Chesapeake Shores
-      </div>      
-    </div>
-   <!-- End Clients Section -->
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>An interesting title</h2>
+												<p>This is also an interesting subtitle</p>
+											</header>
+											<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+										</div>
+									</section>
 
-   <!-- About Section-->
-  <div class="w3-content w3-justify w3-padding-32" id="about">
-  <h2 class="w3-text-grey">A little about me...</h2>
-  </div>
-  <div class="w3-content w3-justify w3-pale-red w3-text-grey w3-padding-32">
-    <p class="ptype">
-      I grew up making pastries, cakes and breads along side my mother and grandmother; This set the stage for a lifelong passion for cooking and the culinary arts.
-      After a decade in the catering business, I decided to switch over to the sweet side of things,
-      I have a keen eye for design (if I do say so myself) and have designed many custom cakes for birthdays, weddings, and special occasions.
-      I consider myself an artisan baker as well as a confectionary artist, I prefer to keep my ingredients simple and use nature as my muse, it’s all about letting the desserts speak for themselves”
-      Ethically and locally sourced ingredients play an important role in my baking, as does the use of fresh, preservative free and high quality ingredients. Many of my dessert treats can be made gluten free, vegan, as well as allergen free.
-    </p>
-    <h5 class="ptype">I have a profound love of baking and can’t imagine doing anything else.</h5>
-  <!-- End About Section -->
-  </div>
+							</div>
+							<div class="col-4 col-12-medium">
 
-  <!-- Contact Section -->
-  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
-    <h2 class="">Contact Me</h2>
-    <div class="w3-section">
-      <p class=""><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Los Angeles, US</p>
-      <p class=""><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (818) 536-2595</p>
-      <a href="mailto:Mia.Coblentz@gmail.com" class=""><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Mia.Coblentz@gmail.com</a>
-    </div>
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Oh, and finally ...</h2>
+												<p>Here's another intriguing subtitle</p>
+											</header>
+											<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+										</div>
+									</section>
 
-  <!-- End Contact Section -->
-  </div>  
-  
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <a href="https://www.facebook.com/Kiwi-Cookie-Co-1912638472299955/" class="fa fa-facebook-official w3-hover-opacity"></a>
-    <a href="https://www.instagram.com/kiwicookieco/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <p class="w3-medium">Site by<a href="https://www.digitalpounce.com/" target="_blank" class="w3-hover-text-green"> Digital Pounce</a></p>
-  <!-- End footer -->
-  </footer>
-  
-<!-- END PAGE CONTENT -->
-</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-<script>
-// Open and close sidebar
-function openNav() {
-  document.getElementById("mySidebar").style.width = "60%";
-  document.getElementById("mySidebar").style.display = "block";
-}
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-4 col-12-medium">
 
-function closeNav() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+								<!-- Sidebar -->
+									<div id="sidebar">
+										<section class="widget thumbnails">
+											<h3>Interesting stuff</h3>
+											<div class="grid">
+												<div class="row gtr-50">
+													<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a></div>
+												</div>
+											</div>
+											<a href="#" class="button icon fa-file-text-o">More</a>
+										</section>
+									</div>
 
-</body>
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+
+								<!-- Content -->
+									<div id="content">
+										<section class="last">
+											<h2>So what's this all about?</h2>
+											<p>This is <strong>Verti</strong>, a free and fully responsive HTML5 site template by <a href="http://html5up.net">HTML5 UP</a>.
+											Verti is released under the <a href="http://html5up.net/license">Creative Commons Attribution license</a>, so feel free to use it for any personal or commercial project you might have going on (just don't forget to credit us for the design!)</p>
+											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit amet phasellus quam turpis.</p>
+											<a href="#" class="button icon fa-arrow-circle-right">Continue Reading</a>
+										</section>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>Random Stuff</h3>
+										<ul class="style2">
+											<li><a href="#">Etiam feugiat condimentum</a></li>
+											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+											<li><a href="#">Sed porttitor cras in erat nec</a></li>
+											<li><a href="#">Felis varius pellentesque potenti</a></li>
+											<li><a href="#">Nullam scelerisque blandit leo</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>Random Stuff</h3>
+										<ul class="style2">
+											<li><a href="#">Etiam feugiat condimentum</a></li>
+											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+											<li><a href="#">Sed porttitor cras in erat nec</a></li>
+											<li><a href="#">Felis varius pellentesque potenti</a></li>
+											<li><a href="#">Nullam scelerisque blandit leo</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>Random Stuff</h3>
+										<ul class="style2">
+											<li><a href="#">Etiam feugiat condimentum</a></li>
+											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+											<li><a href="#">Sed porttitor cras in erat nec</a></li>
+											<li><a href="#">Felis varius pellentesque potenti</a></li>
+											<li><a href="#">Nullam scelerisque blandit leo</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Contact -->
+									<section class="widget contact last">
+										<h3>Contact Us</h3>
+										<ul>
+											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+										</ul>
+										<p>Colorado Health</p>
+									</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; Colorado Health 2019. All rights reserved</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
-
