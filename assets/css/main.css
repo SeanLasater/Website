@@ -1,3 +1,7 @@
+.homepage {
+  background-color: white;
+}
+
 img {
   position: relative;
   align-content: center;
@@ -12,7 +16,6 @@ body {
   margin: 1em;
   display: grid;
 }
-
 
 h1 {
   position: relative;
@@ -80,6 +83,8 @@ p {
   background-color: white;
 }
 
+
+
 /* Animation */
 
 .parallax>use {
@@ -115,7 +120,7 @@ p {
   }
 }
 
-/*Shrinking for mobile*/
+/* Shrinking for mobile */
 
 @media (max-width: 768px) {
   .waves {
@@ -127,5 +132,23 @@ p {
   }
   h1 {
     font-size: 48px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .homepage {
+    background-color: #252525
+  }
+  .header {
+    background: linear-gradient(60deg, rgb(180, 180, 180) 100%, rgb(126, 126, 126) 100%);
+  }
+  .content {
+    background-color: #252525;
+  }
+  h1 {
+    color: #252525;
+  }
+  p {
+    color: #252525;
   }
 }
