@@ -161,7 +161,7 @@ p {
     display: none;
   }
   .logoDark {
-    display: block;
+    display: inline-block;
   }
   h1 {
     color: #252525;
