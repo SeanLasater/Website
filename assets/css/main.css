@@ -134,7 +134,9 @@ p {
     font-size: 48px;
   }
 }
-
+.parallaxDark {
+    display: none;
+}
 @media (prefers-color-scheme: dark) {
   .homepage {
     background-color: #252525
@@ -145,10 +147,17 @@ p {
   .content {
     background-color: #252525;
   }
+  .parallaxDark {
+      display: block;
+  }
+  .parallax {
+      display: none;
+  }
   h1 {
     color: #252525;
   }
   p {
     color: #252525;
   }
+
 }
