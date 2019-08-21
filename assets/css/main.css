@@ -87,8 +87,6 @@ p {
   display: none;
 }
 
-
-
 /* Animation */
 
 .parallax>use {
@@ -111,6 +109,30 @@ p {
 }
 
 .parallax>use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+.parallaxDark>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallaxDark>use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallaxDark>use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallaxDark>use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallaxDark>use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
 }
@@ -138,24 +160,26 @@ p {
     font-size: 48px;
   }
 }
+
 .parallaxDark {
-    display: none;
+  display: none;
 }
+
 @media (prefers-color-scheme: dark) {
   .homepage {
     background-color: #252525
   }
   .header {
-    background: linear-gradient(60deg, rgb(180, 180, 180) 100%, rgb(126, 126, 126) 100%);
+    background: linear-gradient(60deg, rgb(211, 211, 211) 100%, rgb(221, 221, 221) 100%);
   }
   .content {
     background-color: #252525;
   }
   .parallaxDark {
-      display: block;
+    display: block;
   }
   .parallax {
-      display: none;
+    display: none;
   }
   .logo {
     display: none;
@@ -169,5 +193,4 @@ p {
   p {
     color: #252525;
   }
-
 }
