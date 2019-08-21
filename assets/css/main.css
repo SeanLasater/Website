@@ -83,6 +83,10 @@ p {
   background-color: white;
 }
 
+.logoDark {
+  display: none;
+}
+
 
 
 /* Animation */
@@ -152,6 +156,12 @@ p {
   }
   .parallax {
       display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logoDark {
+    display: block;
   }
   h1 {
     color: #252525;
