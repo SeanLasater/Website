@@ -77,6 +77,12 @@ p {
   max-height: 150px;
 }
 
+.stickywaves {
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
+
 .content {
   position: relative;
   height: 20vh;
