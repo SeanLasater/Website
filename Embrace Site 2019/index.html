@@ -9,16 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/plp4icb.css">
     <link rel="icon" href="http://seanlasater.github.io/favicon.png?v=2" />
-    <script href="/assets/JS/script" rel="script"></script>
 </head>
 
 <!-- Content -->
 
 <body class="homepage">
-
-
-
-    <div class="header">
+<div class="header">
 
 
 
@@ -35,14 +31,34 @@
         <div class="inner-header flex">
             <h1>embrace</h1>
         </div>
-        <p>Hello world. This should be a paragraph but I only have so much time.</p>
+        
+        <p>Sign in goes here.</p>
+       
+        
+        <!-- Sign in with Apple -->
+
+<!--
+        <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
+        <div id="appleid-signin" data-color="black" data-border="true" data-type="sign in"></div>
+        <script type="text/javascript">
+            AppleID.auth.init({
+                clientId : '[CLIENT_ID]',
+                scope : '[SCOPES]',
+                redirectURI: '[REDIRECT_URI]',
+                state : '[STATE]'
+            });
+        </script>
+-->
 
 
+    </body>
 
+
+<footer>
         <!--Waves Container-->
         <div>
             <svg class="waves grid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" id="waves">
                 <defs>
                     <path id="gentle-wave"
                         d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
@@ -62,26 +78,14 @@
                         <use xlink:href="#gentle-wave" x="48" y="7" fill="#252525" />
                 </g>
             </svg>
-
-
         </div>
+
         <!--Waves end-->
-
-
-
-
-
-
-
-
         <div class="content flex">
             <p class="footer">embrace | 2020 | Earth</p>
         </div>
 
-
         <!--Content ends-->
     </div>
-
-</body>
-
+</footer>
 </html>

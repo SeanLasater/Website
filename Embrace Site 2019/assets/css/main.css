@@ -15,6 +15,7 @@ body {
   padding: 1em;
   margin: 1em;
   display: grid;
+  color: gray;
 }
 
 h1 {
@@ -75,12 +76,6 @@ p {
   /*Fix for safari gap*/
   min-height: 100px;
   max-height: 150px;
-}
-
-.stickywaves {
-  position: fixed;
-  bottom: 0;
-  width: 100%
 }
 
 .content {
