@@ -2,90 +2,71 @@
 <html>
 
 <head>
-    <title>embrace</title>
+    <title>Sean Lasater Portfolio</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/waves.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/plp4icb.css">
-    <link rel="icon" href="http://seanlasater.github.io/favicon.png?v=2" />
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="personal-website-250416.apps.googleusercontent.com">
+    <link rel="icon" href="http://seanlasater.github.io/favicon.png?v=2">
 </head>
 
-<!-- Content -->
+<!--Content -->
 
-<body class="homepage">
-<div class="header">
+<body>
+    <div class="content">
 
-
-
-        <!-- Logo / Nav -->
-
-        <div class="container">
-            <img src="assets/img/logo.png" class="logo"></img>
-            <img src="assets/img/logoDark.png" class="logoDark"></img>
-        </div>
-
-
-
-        <!-- Title -->
-        <div class="inner-header flex">
-            <h1>embrace</h1>
-        </div>
-        
-        <p>Sign in goes here.</p>
-       
-        
-        <!-- Sign in with Apple -->
-
-<!--
-        <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
-        <div id="appleid-signin" data-color="black" data-border="true" data-type="sign in"></div>
-        <script type="text/javascript">
-            AppleID.auth.init({
-                clientId : '[CLIENT_ID]',
-                scope : '[SCOPES]',
-                redirectURI: '[REDIRECT_URI]',
-                state : '[STATE]'
-            });
-        </script>
--->
-
-
-    </body>
-
-
-<footer>
-        <!--Waves Container-->
-        <div>
+        <!-- Header -->
+        <header>
+            <h1 class="title">Sean Lasater</h1>
+            <nav>
+                    <ul class="nav_links">
+                        <li>
+                            <a href="#">History</a>
+                        </li>
+                        <li>
+                            <a href="#">Present</a>
+                        </li>
+                        <li>
+                            <a href="#">Future</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
             <svg class="waves grid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" id="waves">
                 <defs>
                     <path id="gentle-wave"
                         d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                 </defs>
-                
+
                 <g class="parallax">
                     <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
                     <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
                     <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
                     <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
                 </g>
-                
-                <g class="parallaxDark">
-                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(40,40,40,0.7)" />
-                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(40,40,40,0.5)" />
-                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(40,40,40,0.3)" />
-                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#252525" />
-                </g>
             </svg>
+    
+        <div class="flex">
+            <section id="story">
+                <h2>My story began...</h2>
+                <p>As a young boy with a guitar</p>
+            </section>
+            <section id="present">
+                <h2>Presently</h2>
+                <p>At my computer</p>
+            </section>
         </div>
-
-        <!--Waves end-->
-        <div class="content flex">
-            <p class="footer">embrace | 2020 | Earth</p>
-        </div>
-
-        <!--Content ends-->
+        <footer>
+                <p>SeanLasater@gmail.com / NewHireSean@gmail.com</p>
+        </footer>
     </div>
-</footer>
+    
+</body>
+
+
 </html>
