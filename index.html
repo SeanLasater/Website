@@ -7,66 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/waves.css">
+    <link rel="stylesheet" href="assets/css/signin.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/plp4icb.css">
     <meta name="google-signin-scope" content="profile email">
     <meta name="google-signin-client_id" content="personal-website-250416.apps.googleusercontent.com">
     <link rel="icon" href="http://seanlasater.github.io/favicon.png?v=2">
 </head>
-
 <!--Content -->
-
 <body>
     <div class="content">
-
         <!-- Header -->
         <header>
             <h1 class="title">Sean Lasater</h1>
             <nav>
-                    <ul class="nav_links">
-                        <li>
-                            <a href="#">History</a>
-                        </li>
-                        <li>
-                            <a href="#">Present</a>
-                        </li>
-                        <li>
-                            <a href="#">Future</a>
-                        </li>
-                    </ul>
-                </nav>
+                <ul class="nav_links">
+                    <li>
+                        <a href="#">History</a>
+                    </li>
+                    <li>
+                        <a href="#">Present</a>
+                    </li>
+                    <li>
+                        <a href="#">Future</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
-            <svg class="waves grid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" id="waves">
-                <defs>
-                    <path id="gentle-wave"
-                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-                </defs>
+        <svg class="waves grid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" id="waves">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
 
-                <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
-                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-                </g>
-            </svg>
-    
-        <div class="flex">
-            <section id="story">
-                <h2>My story began...</h2>
-                <p>As a young boy with a guitar</p>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+        </svg>
+        <!-- Begin Body of Work -->
+        <div class="container">
+            
+            <section>
+                <h2>History</h2>
+                <p>HTML, CSS, JS, SQL, Python, Swift and more</p>
+                <a href="#">more...</a>
             </section>
-            <section id="present">
-                <h2>Presently</h2>
-                <p>At my computer</p>
+            <section>
+                <h2>Present</h2>
+                <p>HTML, CSS, JS, SQL, Python, Swift and more</p>
+                <a href="#">more...</a>
+            </section>
+            <section>
+                <h2>Future</h2>
+                <p>HTML, CSS, JS, SQL, Python, Swift and more</p>
+                <a href="#">more...</a>
             </section>
         </div>
+
         <footer>
-                <p>SeanLasater@gmail.com / NewHireSean@gmail.com</p>
+            <div class="pay">
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+            <div class="g-signin2 google" data-onsuccess="onSignIn" data-theme="dark"></div>
+            </div>
+            <p>SeanLasater@gmail.com / NewHireSean@gmail.com</p>
+
         </footer>
     </div>
-    
 </body>
-
-
 </html>
