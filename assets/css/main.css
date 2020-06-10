@@ -13,6 +13,9 @@ main {
   padding: 2em;
   color: darkslategray;
 }
+body {
+  height: 100%;
+}
 
 .logo {
   max-width: 5em;
