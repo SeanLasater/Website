@@ -1,0 +1,20 @@
+{
+  "name": "seanlasater.github.io",
+  "version": "1.0.0",
+  "description": "Test Site",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server -p 1336 build -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanLasater/seanlasater.github.io.git"
+  },
+  "keywords": [],
+  "author": "Sean Lasater",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanLasater/seanlasater.github.io/issues"
+  },
+  "homepage": "https://github.com/SeanLasater/seanlasater.github.io#readme"
+}
