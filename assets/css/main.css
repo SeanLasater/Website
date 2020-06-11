@@ -7,9 +7,7 @@
 }
 
 main {
-  display: flex;
   background: white;
-  margin: auto;
   color: darkslategray;
 }
 
@@ -20,18 +18,15 @@ a, button {
 
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   filter: drop-shadow(0 0 0rem black);
-  height: 20vh;
-  padding: 40px 2%;
 }
 
 .space {
   display: grid;
   margin: auto;
   text-align: center;
-  max-width: 60%;
+  padding: 5em;
 }
 
 .title {
@@ -73,15 +68,12 @@ p {
   padding-top: 4em;
 }
 
-h1 {
-  font-size: 20;
-}
-
-h2 {
+#tiny {
+  font-size: 1em;
   letter-spacing: 1px;
-  font-size: 14px;
-  color: rgb(122, 122, 122);
+  color: rgb(47, 79, 79);
   margin: auto;
+  padding: 1em;
 }
 
 h3 {
@@ -100,12 +92,16 @@ input, p, h1, h2, button {
   margin: auto;
 }
 
+form {
+  margin: auto;
+  padding: 3em;
+}
+
 footer {
   background-image: var(--gradient);
   background-size: 300%;
   color: rgb(77, 77, 77);
   background-position: bottom;
-  height: 14vh;
 }
 
 footer section {
@@ -199,8 +195,12 @@ footer section {
   .content {
     height: 100vh;
   }
-  .space {
-    height: 100vh;
+  main {
+    height: 60vh;
+    padding: 5em;
+  }
+  .adeu {
+    height: 20vh;
   }
   h1 {
     font-size: 40px;
