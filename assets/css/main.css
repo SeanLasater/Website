@@ -213,4 +213,7 @@ footer section {
     height: 17px;
     min-height: 60px;
   }
+  main {
+    padding-right: 2em;
+  }
 }
