@@ -32,7 +32,7 @@ header {
 .title {
   font-family: 'Nunito', sans-serif;
   font-size: 42px;
-  color: rgb(178, 192, 212);
+  color: rgb(255, 255, 255);
   margin-top: 0em;
   margin: 1em;
 }
@@ -65,7 +65,7 @@ p {
 
 #welcome {
   margin: auto;
-  padding-top: 4em;
+  padding-bottom: 1.5em;
 }
 
 #tiny {
@@ -79,7 +79,7 @@ p {
 h3 {
   font-size: 18px;
   letter-spacing: 1px;
-  color: #e9e9e9;
+  color: #ffffff;
   padding-bottom: 5em;
   padding: 2em;
 }
