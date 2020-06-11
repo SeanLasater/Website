@@ -68,6 +68,9 @@ p {
 #instructions {
   padding-bottom: 7.5rem;
 }
+#welcome {
+  margin: auto;
+}
 
 h2 {
   letter-spacing: 1px;
@@ -185,7 +188,7 @@ footer section {
 
 /* Shrinking for mobile */
 
-@media (max-width: 768px) {
+@media (min-width: 900px) {
   .content {
     height: 100vh;
   }
