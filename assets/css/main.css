@@ -29,6 +29,8 @@ header {
 }
 
 .space {
+  display: flex;
+  flex-wrap: wrap;
   padding-top: 4rem;
   justify-self: center;
   text-align: center;
@@ -83,6 +85,7 @@ h3 {
 
 form {
   padding: 2em;
+  margin: auto;
 }
 
 footer {
