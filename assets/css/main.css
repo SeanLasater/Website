@@ -186,11 +186,14 @@ footer section {
   .content {
     height: 100vh;
   }
+  .space {
+    height: 100vh;
+  }
   .waves {
     height: 17px;
     min-height: 60px;
   }
   h1 {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
