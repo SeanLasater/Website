@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <head>
     <title>SL</title>
@@ -7,9 +7,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!-- CSS/Style -->
-    <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/plp4icb.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <!-- Google SignIn -->
     <meta name="google-signin-scope" content="profile email">
     <meta name="google-signin-client_id" content="personal-website-250416.apps.googleusercontent.com">
@@ -17,15 +19,15 @@
     <link rel="icon" href="http://seanlasater.github.io/favicon.png?v=2">
 </head>
 
-<!-- Content -->
-
 <body>
-    <div class="content">
-        <!-- Header & Animation -->
-        <header>
-            <h1 class="title">Sean<br>Lasater</h1>
-        </header>
-
+    <div class="fa container-fluid content">
+        <div class="title">
+            <h1>Sean<br>Lasater</h1>
+        </div>
+        <div class="icon-button">
+            <a href="https://github.com/seanlasater"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+        <div class="waves container">
         <svg class="waves grid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" id="waves">
             <defs>
@@ -39,35 +41,41 @@
                 <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
             </g>
         </svg>
-
-        <!-- Blurbage -->
+        </div>
         <main>
-            <div class="space">
-                <h1 id="welcome">WELCOME</h1>
-                <p>I see a portfolio is required to apply so I've cooked this up during my lunch as a tiny snippet of my
-                    skills. <br>
-                    Here is a little Horoscope app I made with Python3. Hope you enjoy!
-                </p>
-                <form>
-                    <input type="button" value="Download Horoscope.py"
-                        onclick="window.location.href='assets/py/horoscope.py'">
-                </form>
-                <h1 id="tiny">Lets quickly go over my shell script!</h1>
-                <p id="instructions">Python3 can be found <a href="https://www.python.org/downloads/">here</a>.<br>
-                    Open terminal and cd into the directory containing Horoscope.py<br>
-                    If you have Python3 installed we can now type "Python3 Horoscope.py -s (your zodiac sign).<br>
-                    I'm not much of a zodiac buff, but this astrology chart will update daily so feel free to use it
-                    every day for new info.</p>
-            </div>
+            <div class="container-fluid text-center">
+                <h1 class="title text-center" style="color: darkslategray;">WELCOME</h1>
+                <div class="container card" style="width: 60rem;">
+                    <p class="fa">Here is a little Horoscope script I made with Python3 for terminal. Hope you enjoy!</p>
+                    <form>
+                        <input class="fa btn btn-primary" type="button" value="Download Horoscope.py"
+                            onclick="window.location.href='assets/py/horoscope.py'">
+                    </form>
+                    <h1 id="tiny">Overview</h1>
+                    <p id="instructions">Python3 can be found <a href="https://www.python.org/downloads/">here</a>.<br>
+                        Open terminal and cd into the directory containing Horoscope.py<br>
+                        If you have Python3 installed we can now type "Python3 Horoscope.py -s (your zodiac sign).<br>
+                        I'm not much of a zodiac buff, but this astrology chart will update daily so feel free to use it
+                        every day for new info.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card text-center">
+
+                        </div>
+                    </div>
+                </div>
         </main>
         <footer>
 
-            <div class="adeu">
-                <h3>NewHireSean@gmail.com</h3>
+            <div class="container-fluid">
+                <a class="text-center" title="Email Sean" href="#"
+                    onclick="javascript:window.location='mailto:NewHireSean@gmail.com?subject=Invitation'">NewHireSean@gmail.com</a>
             </div>
 
         </footer>
-        </div>
+    </div>
 </body>
+
 
 </html>
