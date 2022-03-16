@@ -3,6 +3,6 @@ var birthDate = document.getElementById('birthday').innerHTML;
 const submitButton = document.getElementById('astroButton').innerHTML;
 
 function submit() {
-    window.alert('ok');
+    window.alert('This site lacks functionality at this time.');
     console.log('successfully submitted');
 }
