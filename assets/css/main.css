@@ -1,130 +1,157 @@
 * {
-  font-family: 'Nunito', sans-serif;
+    font-family: 'Times New Roman'(cursive), sans-serif;
 }
 
 :root {
-  --gradient: linear-gradient( 140deg, #1f1c20, rgb(178, 192, 212), rgb(78, 53, 46), rgb(255, 64, 0));
+    --gradient: linear-gradient( 140deg, #ca3870, rgb(152, 185, 154), rgb(21, 66, 64), rgb(218, 202, 67));
+    background-color: slategray;
+}
+
+h3 {
+    color: grey;
+}
+
+textarea {
+    width: 100px;
+    height: 20px;
+    background-color: rgba(31, 88, 41, 0.2);
+    border-radius: 4px;
+    border-color: #e3dce6;
+    font-size: large;
+    padding-left: 2vh;
+}
+
+button {
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 1vh;
+    margin-left: 1vh;
 }
 
 main {
-  background: white;
-  color: darkslategray;
+    background: rgba(247, 246, 250);
+    color: darkslategray;
 }
 
 .content {
-  width: 100%;
-  background-image: var(--gradient);
-  background-size: 500%;
-  animation: bg-animation 10s infinite alternate;
-  justify-content: space-evenly;
+    width: 100%;
+    background-image: var(--gradient);
+    background-size: 500%;
+    animation: bg-animation 10s infinite alternate;
+    justify-content: space-evenly;
 }
 
 .title {
-  padding-left: 2em;
+    color: white;
+    padding-left: 2em;
 }
 
 a {
-  font-size: 18px;
+    color: rgb(67, 85, 35);
+    font-size: 18px;
 }
 
 .fa-github {
-  padding-left: 1em;
-  font-size: 40px;
+    padding-left: 1em;
+    font-size: 40px;
 }
 
 @keyframes bg-animation {
-  0% {
-    background-position: left
-  }
-  100% {
-    background-position: center
-  }
+    0% {
+        background-position: left
+    }
+    100% {
+        background-position: center
+    }
 }
+
 
 /* WAVES */
 
 .waves {
-  position: relative;
-  width: 100%;
-  height: 20vh;
-  margin-bottom: -7px;
-  /*Fix for safari gap*/
-  min-height: 100px;
-  max-height: 150px;
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
 }
 
 .parallax>use {
-  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
 
 .parallax>use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+    animation-delay: -2s;
+    animation-duration: 7s;
 }
 
 .parallax>use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
+    animation-delay: -3s;
+    animation-duration: 10s;
 }
 
 .parallax>use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+    animation-delay: -4s;
+    animation-duration: 13s;
 }
 
 .parallax>use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+    animation-delay: -5s;
+    animation-duration: 20s;
 }
 
 .parallaxDark>use {
-  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
 
 .parallaxDark>use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+    animation-delay: -2s;
+    animation-duration: 7s;
 }
 
 .parallaxDark>use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
+    animation-delay: -3s;
+    animation-duration: 10s;
 }
 
 .parallaxDark>use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+    animation-delay: -4s;
+    animation-duration: 13s;
 }
 
 .parallaxDark>use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+    animation-delay: -5s;
+    animation-duration: 20s;
 }
 
 @keyframes move-forever {
-  0% {
-    transform: translate3d(-90px, 0, 0);
-  }
-  100% {
-    transform: translate3d(85px, 0, 0);
-  }
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
 }
 
 @media (min-width: 900px) {
-  .content {
-    height: 100vh;
-  }
-  main {
-    height: 60vh;
-    padding: 5em;
-  }
-  .adeu {
-    height: 20vh;
-  }
-  h1 {
-    font-size: 40px;
-  }
+    .content {
+        height: 100vh;
+    }
+    main {
+        height: 60vh;
+        padding: 5em;
+    }
+    .adeu {
+        height: 20vh;
+    }
+    h1 {
+        font-size: 40px;
+    }
 }
+
 
 /* @media (max-width: 900px) {
   .waves {
