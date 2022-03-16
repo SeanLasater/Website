@@ -9,16 +9,17 @@
 
 h3 {
     color: grey;
+    border: none;
 }
 
-textarea {
+textarea,
+#birthday {
     width: 100px;
     height: 20px;
     background-color: rgba(31, 88, 41, 0.2);
     border-radius: 4px;
     border-color: #e3dce6;
     font-size: large;
-    padding-left: 2vh;
 }
 
 button {
@@ -26,7 +27,6 @@ button {
     width: 100px;
     border-radius: 10px;
     margin-top: 1vh;
-    margin-left: 1vh;
 }
 
 main {
@@ -48,8 +48,9 @@ main {
 }
 
 a {
-    color: rgb(67, 85, 35);
+    color: rgb(38, 49, 18);
     font-size: 18px;
+    opacity: 60%;
 }
 
 .fa-github {
@@ -136,7 +137,7 @@ a {
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 400px) {
     .content {
         height: 100vh;
     }
