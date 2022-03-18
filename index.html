@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="https://use.typekit.net/plp4icb.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- Google SignIn -->
-    <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="personal-website-250416.apps.googleusercontent.com">
+    <!-- <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="personal-website-250416.apps.googleusercontent.com"> -->
     <!-- Favicon -->
     <link rel="icon" href="http://seanlasater.github.io/favicon.png?v=2">
 </head>
@@ -46,19 +46,13 @@
 
             <div id="introInputs"></div>
 
-            <label id="nameLabel">Name</label>
+            <label for="nameField">Name </label>
+            <input type="text" id="nameField" class="nameField">
             <br>
-            <textarea id="nameText"></textarea>
-
+            <label for="dateField">Date </label>
+            <input type="date" id="birthdayField" class="birthdayField">
             <br>
-
-            <label id="birthLabel">Birthdate</label>
-            <br>
-            <input type="date" id="birthday">
-
-            <br>
-
-            <button onclick="submit()" id="astroButton">Continue</button>
+            <input type="submit" value="Submit" class="submit" onclick="">
 
             <script src="assets/js/script.js"></script>
 
