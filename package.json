@@ -4,7 +4,7 @@
   "description": "Test Site",
   "main": "index.js",
   "scripts": {
-    "start": "snowpack serve",
+    "start": "snowpack dev",
     "serve": "http-server -p 1336 build -c-1"
   },
   "repository": {
