@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SeanLasater/seanlasater.github.io/issues"
   },
-  "homepage": "https://github.com/SeanLasater/seanlasater.github.io#readme"
+  "homepage": "https://github.com/SeanLasater/seanlasater.github.io#readme",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
 }
