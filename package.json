@@ -4,7 +4,7 @@
   "description": "Test Site",
   "main": "index.js",
   "scripts": {
-    "serve": "none"
+    "serve": ""
   },
   "repository": {
     "type": "git",
